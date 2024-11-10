@@ -9,3 +9,8 @@ Wow, your colleague even included a unit test to ensure NaN values were removed 
 Once you've made changes to the test_nan_values unit test, you'll want to ensure that these unit tests execute with ExitCode.OK. This means that the pytest defined above has passed testing, and the code is one step closer to being to be shipped to production.
 
 For context, there is a print statement in the prepare_smartphone_data() function in the first cell of the notebook below that can be used to visualize the dataset your Junior Data Engineer has been working with. Feel free to update this line of code as needed. This can then be removed after the dataset has been investigated. Best of luck!
+
+Review the definition of the prepare_smartphone_data() function to ensure the code is well-documented and is easily "readable". Update the existing code to remedy any issues with documentation or readability.
+Review and update the prepare_smartphone_data() function to ensure that it adheres to PEP-8 principles.
+Review code in the visualize_versus_price() function for adherence to DRY principles. Use the column_to_label() function to remove any logic that was previously duplicated.
+Review the unit test written below to ensure the test matches logic in the prepare_smartphone_data() function, and make changes as needed. Run the cell to validate the test passes when executed.
